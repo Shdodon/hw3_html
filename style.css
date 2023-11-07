@@ -33,6 +33,10 @@ body {
     padding: 10px 20px;
 }
 
+.head_logo {
+    padding: 10px 300px;
+}
+
 .content {
     display: flex;
     align-items: flex-start;
@@ -46,7 +50,7 @@ body {
 
 .top_info {
     color: #000;
-    font-family: Gilroy-Bold;
+    /* font-family: Gilroy-Bold; */
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -55,7 +59,7 @@ body {
 
 .bottom_info {
     color: #888;
-    font-family: Gilroy-Medium;
+    /* font-family: Gilroy-Medium; */
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -71,4 +75,8 @@ body {
     padding: 5px 5px;
     margin: 10px;
     border-radius: 10px;
+}
+
+.bottom_logo {
+    margin: 100px 50px 200px 280px;
 }
