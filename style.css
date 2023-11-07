@@ -33,10 +33,15 @@ body {
     padding: 10px 20px;
 }
 
-.content {}
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 164px 509px 42px 332px;
+}
 
-.text_content {
-    padding: 164px 999px 42px 332px;
+.content_img {
+    padding: 10px 10px 100px 100px;
 }
 
 .top_info {
@@ -55,8 +60,15 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding: auto;
 }
 
 .btns {
-    padding: 164px 999px 42px 332px;
+    padding: 10px;
+}
+
+.btn {
+    padding: 5px 5px;
+    margin: 10px;
+    border-radius: 10px;
 }
