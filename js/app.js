@@ -4,10 +4,10 @@ function askName() {
     document.getElementById("output").value = ""
 
     if (name == '') {
-        document.getElementById("error").innerText = 'Ошибка, введите имя!'
+        document.getElementById("error").innerText = 'Ошибка, введите имя питомца!'
         return
     }
 
     document.getElementById("error").innerText = ''
-    document.getElementById("output").innerText = `Привет! ${name}`
+    document.getElementById("output").innerText = `Теперь мы знаем его имя,  - ${name} Котеевич`
 }
