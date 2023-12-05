@@ -90,9 +90,6 @@ body {
     border-radius: 50px;
 }
 
-.bottom_logo {
-    padding-top: 200px;
-    display: flex;
+.counter_cat {
+    padding-top: 40px;
 }
-
-.content_img {}
